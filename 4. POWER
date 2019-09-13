@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+#include<math.h>
+
+int power(int n,int p = 1){
+    return pow(p,n);
+}
+
+int main(){
+    int n,p;
+    cout<<"Enter n and p: ";
+    cin>>n>>p;
+    cout<<power(n,p);
+}
