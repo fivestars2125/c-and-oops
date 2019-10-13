@@ -54,12 +54,16 @@ int main()
     obj1.input();
     obj2.input();
     obj3=obj1+obj2;
+   cout<<"Addition:";
     obj3.show();
     obj3=obj1-obj2;
+    cout<<"Subtraction:";
     obj3.show();
     obj3=obj1*obj2;
+    cout<<"Multiplication:";
     obj3.show();
     obj3=obj1/obj2;
+    cout<<"Division:";
     obj3.show();
     return 0;
 }
