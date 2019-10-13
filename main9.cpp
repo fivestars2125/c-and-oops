@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace std;                                    /*IS CODE ME ERROR HAI....SHI KARDO!!!*/
 
 class distancef1
 {
