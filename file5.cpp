@@ -4,7 +4,14 @@ class Caccount{
     int acc_no;
     float balance;
     public:
-   Caccount( int x,float y){
+    
+         Caccount()
+    {
+         int x;float y;
+        cout<<"enter account number: ";
+        cin>>x;
+        cout<<"enter initial balance: ";
+        cin>>y;
         acc_no=x;
         balance=y;
     }
@@ -31,14 +38,8 @@ class Caccount{
     }
 };
 int main()
-{      int a;
-float b;
-         cout<<"enter account number: ";
-        cin>>a;
-        cout<<"enter initial balance: ";
-        cin>>b;
-
-        Caccount obj(a,b);
+{      
+    Caccount obj;
         obj.inputTransaction();
         obj.printbalance();
 
