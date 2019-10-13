@@ -5,7 +5,7 @@ class bank{
     private:
     char name[10];
     int acc_no;
-    char type;
+    char type[10];
     int balance;
 
     public:
