@@ -31,8 +31,8 @@ cout<<"your array is : ";
       cout<<" "<<arr[i];
       cout<<endl;
 
-    for(int j=0;j<n;j++){
-             cout<<endl;
+    for(int j=0;j<n;j++)
+    {
        for(int i=0;i<n;i++)
        {
 
@@ -44,11 +44,11 @@ cout<<"your array is : ";
                arr[i]=arr[i+1];
                arr[i+1]=temp;
             }
-              cout<<"  "<<arr[i];
-
        }
 
     }
+  for(int i=0;i<n;i++)
+    cout<<" "<<arr[i];
 delete[] arr;
 
 return 0;
