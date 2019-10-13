@@ -9,8 +9,9 @@ int main()
     cin>>num;
     for(int i=0;i<num;i++)
     cin>>names[i];
+    cout<<"your array: "<<endl;
     for(int i=0;i<=num;i++)
-    cout<<"  "<<names[i];
+    cout<<names[i]<<"  ";
      cout<<endl;
      cout<<"sorted names are:  ";
     for(int i=0;i<num;i++)
@@ -31,6 +32,6 @@ int main()
      }
 
      for(int i=0;i<num;i++)
-        cout<<"  "<<names[i];
+        cout<<names[i]<<" ";
     return 0;
 }
