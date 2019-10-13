@@ -9,7 +9,7 @@ public:
 
     void getdata()
     {
-        cout<<"enter size: ";
+        cout<<"enter size of string: ";
         cin>>length;
         cout<<"enter string: ";
         for(int i=0;i<length;i++)
@@ -26,7 +26,7 @@ public:
     }
     String()
     {
-        cout<<"default constructor called : value of strinf is: "<<a<<endl;
+        cout<<"default constructor called : value of string is: "<<a<<endl;
     }
     String(const String &p)
     {
