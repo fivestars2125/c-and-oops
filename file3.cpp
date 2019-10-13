@@ -10,5 +10,6 @@ int main()
 {   float num,p;
     cout<<"enter the number: ";
     cin>>num;
+   cout<<"default parameter for p is taken as 3 "<<endl;
     cout<<"the value of number raised to the power :"<<pow(num,p=3);
 }
